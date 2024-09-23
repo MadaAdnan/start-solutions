@@ -1,0 +1,510 @@
+body {
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+#hero {
+  width: 100%;
+  background: url("../../assets/img/New%20Folder/hero-mobile.webp") center / cover no-repeat;
+  color: #464646;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background: url("../../assets/img/New%20Folder/hero-web.webp") center / cover no-repeat;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #64bebe;
+  transform: translate(3px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(70,70,70);
+  transition: all 400ms;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #64bebe;
+}
+
+.btn-contact {
+  background-color: #64bebe;
+  color: #ffffff !important;
+  border-radius: 0;
+  transition: all 600ms;
+  box-shadow: 0px 0px 40px #7dffd7;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  color: #64bebe !important;
+  border-radius: 0;
+  box-shadow: 0px 2px 18px #caffff;
+  background: none;
+  border: 1px solid #64bebe;
+  transform: translate(4px);
+}
+
+#navcol-1 {
+  font-weight: 400;
+}
+
+.btn-profile {
+  color: #28aa82 !important;
+  border-radius: 0;
+  transition: all 600ms;
+  background: none;
+  border: 1px solid #28aa82;
+}
+
+.btn-profile:hover {
+  background-color: #64bebe;
+  color: #ffffff !important;
+  border-radius: 0;
+  box-shadow: -3px 3px 20px #a9ffe5;
+  transform: translate(-4px);
+}
+
+.subtitle {
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.title {
+  line-height: 45px;
+}
+
+.div-card-body {
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px #dfffff;
+  border: 1px solid #f8f8f8;
+  transition: all 1s;
+}
+
+.div-card-body:hover h3 {
+  color: #28aa82;
+}
+
+.div-card-body:hover p {
+  color: #64bebe;
+}
+
+.div-card-body:hover {
+  background-color: #f9f9fa;
+  box-shadow: 0px 0px rgb(223,255,255);
+  transform: scale(1.10);
+}
+
+#offices {
+  background-color: #f9f9fa;
+}
+
+#solutions {
+  color: #ffffff;
+  background: url("../../assets/img/New%20Folder/bg-solutions.webp") center / cover no-repeat, #64bebe;
+}
+
+#card-solution {
+  background: #fafafa;
+  color: #464646;
+}
+
+.card-solution-body {
+  color: #464646;
+  min-height: 330px;
+  transition: all 850ms;
+  cursor: pointer;
+}
+
+.read-more {
+  color: #64bebe;
+  border: 1px solid #737d8c;
+  text-decoration: none;
+  transition: all 600ms;
+}
+
+#why-start {
+  background-color: #f9f9fa;
+}
+
+.bg-col {
+  background: url("../../assets/img/New%20Folder/why-bg-1.png") center / cover no-repeat;
+  min-height: 100%;
+}
+
+.read-more:hover {
+  background-color: #64bebe;
+  color: #ffffff;
+  border: 1px solid #64bebe;
+}
+
+.card-solution-body:hover h5 {
+  color: #64bebe;
+}
+
+#why-startcard {
+  background: url("../../assets/img/New%20Folder/why-bg-card-mobile.webp") center / cover no-repeat;
+}
+
+@media (min-width: 768px) {
+  #why-startcard {
+    background: url("../../assets/img/New%20Folder/why-bg-card-1.webp") center / cover no-repeat;
+  }
+}
+
+.why-card-body {
+  color: #ffffff !important;
+  transition: all 800ms;
+  min-height: 300px;
+}
+
+.why-card-body:hover h5 {
+  color: #64bebe;
+}
+
+.why-card-body:hover {
+  background-color: #3b3b3b;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  #our-teams {
+    background: url("../../assets/img/New%20Folder/out-team-mobile-bg.webp") center / cover no-repeat;
+  }
+}
+
+#our-teams {
+  color: #ffffff;
+  background: url("../../assets/img/New%20Folder/out-team-bg.webp") center / cover no-repeat;
+}
+
+.contact-one {
+  color: #ffffff;
+  border: 1px solid #ffff;
+  border-radius: 0px;
+  text-decoration: none;
+  transition: all 650ms;
+}
+
+.contact-one:hover {
+  background-color: #ffffff;
+  color: #464646;
+  border: 1px solid #ffff;
+}
+
+#odoo {
+  background: url("../../assets/img/New%20Folder/odoo-mob.webp") center / cover no-repeat;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #odoo {
+    background: url("../../assets/img/New%20Folder/odoo-web.webp") center / cover no-repeat;
+  }
+}
+
+.oddo-link:hover {
+  color: #464646 !important;
+  cursor: pointer;
+}
+
+#journey {
+  background: url("../../assets/img/New%20Folder/bg-journey.webp") center / cover no-repeat, #464646;
+}
+
+#Industries {
+  background-color: #fafafa;
+}
+
+#header {
+  background: url("../../assets/img/New%20Folder/out-team-bg.webp") center / cover no-repeat;
+  min-height: 300px;
+  height: auto;
+}
+
+.header-overlay {
+  background: rgba(34,34,34,0.82);
+  min-height: 300px;
+  height: auto;
+}
+
+.erp-title {
+  background: #fafafa;
+}
+
+.card-body-descraption {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px rgb(241,241,241);
+  min-height: 260px;
+}
+
+.card-erp {
+  background-color: rgba(70,70,70,0.91);
+}
+
+#erp-end {
+  background: url("../../assets/img/New%20Folder/AdobeStock_604269075.webp") center / cover no-repeat;
+}
+
+#footer {
+  background: #64bebe;
+}
+
+.div-list-icon a {
+  color: #ffffff;
+}
+
+#hero-web {
+  height: 100vh;
+  background: url("../../assets/img/New%20Folder/bg%20(2).webp") center / cover no-repeat;
+}
+
+.overlay-gray {
+  background: rgba(70,70,70,0.9);
+}
+
+.div-hero {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.card-web {
+  background-color: #ffffff;
+}
+
+#web-info {
+  background-color: #fafafa;
+}
+
+.card-web-body {
+  height: auto;
+  background-color: #fafafa;
+  min-height: 500px;
+  border: 1px solid #f2f2f2;
+}
+
+.card-web-desc {
+  background-color: #ffffff;
+}
+
+#web-cards {
+  background-color: #f9f9f9;
+}
+
+#hero-mobile {
+  background: url("../../assets/img/New%20Folder/bg%20(2).webp") center / cover no-repeat;
+}
+
+.mobile-card-body {
+  background-color: #fafafa;
+  border: 1px solid #f4f4f4;
+}
+
+.card-info-web:hover {
+  background-color: #edecec;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(213,213,213,0.71);
+  transition: all 800ms;
+}
+
+#erp-one {
+  background-color: #464646;
+}
+
+#erp-one-1 {
+  background: url("../../assets/img/New%20Folder/hero-mobile.webp") center / cover no-repeat;
+}
+
+@media (min-width: 768px) {
+  #erp-one-1 {
+    background: url("../../assets/img/New%20Folder/hero-web.webp") center / cover no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  #program-sales {
+    background: url("../../assets/img/New%20Folder/why-bg-card-mobile.webp") center / cover no-repeat, #464646;
+  }
+}
+
+#program-sales {
+  background: url("../../assets/img/New%20Folder/why-bg-card.webp") center / cover no-repeat;
+}
+
+#header-rfid {
+  background: url("../../assets/img/New%20Folder/out-team-bg.webp") center / cover no-repeat;
+}
+
+#rfid-cards {
+  background-color: #f9f9f9;
+}
+
+#rfid-system {
+  background: url("../../assets/img/New%20Folder/odoo-mob.webp") center / cover no-repeat;
+}
+
+@media (min-width: 768px) {
+  #rfid-system {
+    background: url("../../assets/img/New%20Folder/odoo-web.webp") center / cover no-repeat;
+  }
+}
+
+#rfid-management {
+  background-color: rgba(70,70,70,0.9);
+}
+
+#header-hardware {
+  background: url("../../assets/img/New%20Folder/bg%20(2).webp");
+  height: auto;
+}
+
+.card-hadware {
+  height: auto;
+  min-height: 300px;
+  background-color: #fafafa;
+  border: 1px solid #f4f4f4;
+  box-shadow: 0px 0px 13px rgba(242,242,242,0.63);
+}
+
+#hardware-system {
+  background: url("../../assets/img/New%20Folder/hero-mobile.webp") center / cover no-repeat;
+}
+
+@media (min-width: 768px) {
+  #hardware-system {
+    background: url("../../assets/img/New%20Folder/hero-web.webp") center / cover no-repeat;
+  }
+}
+
+#computer {
+  background: url("../../assets/img/New%20Folder/odoo-mob.webp") center / cover no-repeat;
+}
+
+@media (min-width: 768px) {
+  #computer {
+    background: url("../../assets/img/New%20Folder/odoo-web.webp") center / cover no-repeat;
+  }
+}
+
+#finger-print {
+  min-height: 100vh;
+}
+
+#printer-code {
+  background-color: #fbfbfb;
+}
+
+#header-real-estate {
+  background: url("../../assets/img/New%20Folder/AdobeStock_604269075.webp") center / cover no-repeat;
+  height: auto;
+}
+
+.card-estate-img {
+  background: url("https://cdn.bootstrapstudio.io/placeholders/1400x800.png");
+  height: 100%;
+}
+
+.card-estate-body {
+  height: auto;
+  min-height: 350px;
+  border: 1px solid #f1f1f1;
+}
+
+.card-estate-img {
+  min-height: 250px;
+  height: auto;
+  background: url("../../assets/img/New%20Folder/estate-caard-2.webp") center / cover no-repeat;
+}
+
+.img-consolting {
+  background: url("../../assets/img/New%20Folder/estat-sec.webp") center / cover no-repeat;
+  min-height: 400px;
+}
+
+.div-consolting {
+  background: var(--bs-primary);
+}
+
+#header-project {
+  background: url("../../assets/img/New%20Folder/project-headwr.webp") center / cover no-repeat;
+}
+
+.div-project {
+  background: #e1aa23;
+}
+
+#mobile-info {
+  background: url("../../assets/img/New%20Folder/odoo-mob.webp") center / cover no-repeat;
+}
+
+@media (min-width: 768px) {
+  #mobile-info {
+    background: url("../../assets/img/New%20Folder/odoo-web.webp") center / cover no-repeat;
+  }
+}
+
+#project-manage {
+  background: url("../../assets/img/New%20Folder/hero-mobile.webp") center / cover no-repeat;
+}
+
+#project-manage {
+  background: url("../../assets/img/New%20Folder/hero-web.webp") center / cover no-repeat;
+}
+
+#estate-system {
+  background: url("../../assets/img/New%20Folder/hero-web.webp") center / cover no-repeat;
+}
+
+#estate-manage {
+  background: url("../../assets/img/New%20Folder/odoo-web.webp") center / cover no-repeat;
+}
+
+#hero-factor {
+  height: 100vh;
+  background: url("../../assets/img/New%20Folder/bg%20(2).webp") center / cover no-repeat;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+}
+
+#header-hr {
+  background: url("../../assets/img/New%20Folder/out-team-bg.webp") center / cover no-repeat;
+}
+
+.card-hr-body {
+  height: auto;
+  min-height: 500px;
+}
+
+#hero-ed {
+  height: 100vh;
+  background: url("../../assets/img/New%20Folder/bg%20(2).webp") center / cover no-repeat;
+}
+
+.ed-card-body {
+  background-color: #fafafa;
+  border: 1px solid #f4f4f4;
+}
+
+#header-cloud {
+  background: url("../../assets/img/New%20Folder/AdobeStock_604269075.webp") center / cover no-repeat;
+  height: auto;
+}
+
+.card-cloud-body {
+  height: auto;
+  min-height: 350px;
+  border: 1px solid #f1f1f1;
+}
+
+.card-cloud-img {
+  min-height: 250px;
+  height: auto;
+  background: url("../../assets/img/New%20Folder/bg%20(2).webp") center / cover no-repeat;
+}
+

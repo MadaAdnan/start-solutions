@@ -1,0 +1,66 @@
+.parallax-container {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.background-image-1 {
+  background-image: url('https://rassweiler-it.de/images/rassweiler-it_jerome_rassweiler_webdesign.png');
+  background-position: center right;
+}
+
+.parallax-alternative-img-1 {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.background-image-2 {
+  background-image: url('https://rassweiler-it.de/images/rassweiler-it_jerome_rassweiler_programming_setup_2048x1365.jpg');
+}
+
+.parallax-alternative-img-2 {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+.content-section {
+  background-color: #ededed;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .parallax-container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallax-alternative-img-1 {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallax-alternative-img-2 {
+    display: block;
+  }
+}
+
+.overlay-parallax {
+  background-color: rgba(50,50,50,0.9);
+}
+
+#hero-mobile {
+  height: 100vh;
+}
+
